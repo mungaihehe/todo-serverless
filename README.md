@@ -1,6 +1,8 @@
-# Serverless Todo list
+# 📃 Serverless Todo list
 
 Fully serverless todo list application that scales on demand. Built with React, Typescript, TailwindCSS and AWS
+
+👉[Here is the live demo](google.com)
 
 ## Services used
 
