@@ -12,7 +12,7 @@ export class FrontendStack extends sst.Stack {
 
     const site = new sst.ReactStaticSite(this, "ReactSite", {
       path: "frontend",
-      buildCommand: "CI false npm run build",
+      buildCommand: "CI=false npm run build",
       environment: {
         REACT_APP_API_URL: api.url,
         REACT_APP_REGION: scope.region,
